@@ -3,7 +3,7 @@ Tähän tallennetaan olennaiset asiakirjat projektiin.
 
 
 Projektin nimi?
-Sään seuranta sivusto
+Sääsovellus
 
 
 Mikä on toteuttavan sovelluksen tarkoitus?
