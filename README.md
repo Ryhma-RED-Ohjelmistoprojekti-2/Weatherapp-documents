@@ -3,11 +3,11 @@ Tähän tallennetaan olennaiset asiakirjat projektiin.
 
 
 Projektin nimi?
-Sääsovellus
+- Sääsovellus
 
 
 Mikä on toteuttavan sovelluksen tarkoitus?
-Sivuston avulla voi tarkastella tämänhetkistä säätilaa Pasilan kohdalla
+- Sivuston avulla voi tarkastella tämänhetkistä säätilaa Pasilan kohdalla
 
 
 Mitkä ovat sovelluksen tärkeimmät ominaisuudet, eli mitä sovelluksen käyttäjä voi sillä tehdä?
