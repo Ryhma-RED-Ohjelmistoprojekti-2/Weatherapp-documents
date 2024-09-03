@@ -11,17 +11,18 @@ Main purpose of the application?
 With the application, one can check current weather condition
 
 
-Mikä on toteuttavan sovelluksen tarkoitus?
-- Sivuston avulla voi tarkastella tämänhetkistä säätilaa Pasilan kohdalla
+What is the use of the application?
+- Using this app you can inspect the current weather at Pasila
 
 
-Mitkä ovat sovelluksen tärkeimmät ominaisuudet, eli mitä sovelluksen käyttäjä voi sillä tehdä?
-Tarkastella seuraavia säätietoja:
-- Lämpötila
-- Tuulen suunta
-- Tuulen nopeus
-- Ilmankosteus (?)
-- Säähistoria päivän ajalta (?)
+
+What are the most important features of the app, what can the user of the application do?
+You can inspect the following weather data:
+- Temperature
+- Direction of wind
+- Wind speed
+- Humidity (?)
+- Weather history of the last 24 hours (?)
 -
 
 
@@ -33,7 +34,8 @@ Tässä on tärkeää, että jos esimerkiksi Palvelinohjelmointi eli nykyiseltä
 - React
 
 
-Ryhmän jäsenten nimet:
+
+Members of the team:
 - Erkki Tiili
 - Ilari Koikkalainen
 - Oskari Aho
