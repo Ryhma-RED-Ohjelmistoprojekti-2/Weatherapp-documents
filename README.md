@@ -8,11 +8,7 @@ Project type and name?
 "Sääsovellus", a weather application for aviation hobbyists. Requested by Jukka Juslin, product owner.
 
 Main purpose of the application?
-With the application, one can check current weather condition
-
-
-Mikä on toteuttavan sovelluksen tarkoitus?
-- Sivuston avulla voi tarkastella tämänhetkistä säätilaa Pasilan kohdalla
+With the application, one can check current weather condition in Pasila.
 
 
 Mitkä ovat sovelluksen tärkeimmät ominaisuudet, eli mitä sovelluksen käyttäjä voi sillä tehdä?
