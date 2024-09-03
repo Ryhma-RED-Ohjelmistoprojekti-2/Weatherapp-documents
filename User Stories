@@ -1,10 +1,12 @@
+As a user I can see the current general weather (sunny, rain etc.)
+
+As a user I want to see METAR/ATIS wind measurements (gusts, average wind, directions)
+
 As a user I can see the day and time for the current weather measurement.
 
 As a user I can see the current temperature and humidity.
 
-As a user I can see the current general weather (sunny, rain etc.)
-
-As a user I can see the changes in wind speed and direction for the last hour.
+As a user I want to know barometric pressure
 
 As a user I can follow the weather forecast for the coming days.
 
