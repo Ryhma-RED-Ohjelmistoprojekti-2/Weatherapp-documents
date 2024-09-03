@@ -9,18 +9,11 @@ Chapter 1: Introduction
 
 
 Project type and name?
-"Sääsovellus", a weather application for aviation hobbyists. Requested by Jukka Juslin, product owner.
-
-
-
-Main purpose of the application?
-With the application, one can check current weather condition in Pasila.
-With the application, one can check current weather condition
-
+"Sääsovellus", i.e., a weather application for aviation hobbyists. Requested by Jukka Juslin, product owner.
 
 
 What is the use of the application?
-- Using this app you can inspect the current weather at Pasila
+- Using this app, one can inspect the current weather at Pasila
 
 
 
@@ -34,12 +27,16 @@ You can inspect the following weather data:
 
 
 
-What programming technologies are needed for the application?
-- VSCode
-- Java
-- Spring boot
-- MySQL
-- React
+What programming technologies and solutions were used for the application?
+
+- IDE -environment: VSCode.
+
+- Backend: Java and Spring boot.
+
+- Frontend: React.
+	* Libraries: ...
+
+- Database: MySQL.
 
 
 
