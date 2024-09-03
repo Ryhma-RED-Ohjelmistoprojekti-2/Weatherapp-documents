@@ -2,13 +2,20 @@
 
 Repository s24RyhmaREDdocuments is the place, where we will record all related documents for our project.
 
+
+
 Chapter 1: Introduction
+
+
 
 Project type and name?
 "Sääsovellus", a weather application for aviation hobbyists. Requested by Jukka Juslin, product owner.
 
+
+
 Main purpose of the application?
 With the application, one can check current weather condition
+
 
 
 What is the use of the application?
@@ -23,14 +30,14 @@ You can inspect the following weather data:
 - Wind speed
 - Humidity (?)
 - Weather history of the last 24 hours (?)
--
 
 
-Mitä toteutusteknologioita (esim. ohjelmointikieltä, tai sovelluskehystä kuten Spring Boot, tai Django) projektin toteutuksessa tullaan käyttämään.
-Tässä on tärkeää, että jos esimerkiksi Palvelinohjelmointi eli nykyiseltä nimeltään Back end-ohjelmointi ei ole arvosanaa 5, niin tilanne ei parane vaihtamalla tekniikkastäkkiä.
-- VSCode (?)
+
+What programming technologies are needed for the application?
+- VSCode
 - Java
 - Spring boot
+- MySQL
 - React
 
 
