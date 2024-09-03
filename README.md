@@ -1,9 +1,14 @@
 # s24RyhmaREDdocuments
-Tähän tallennetaan olennaiset asiakirjat projektiin.
 
+Repository s24RyhmaREDdocuments is the place, where we will record all related documents for our project.
 
-Projektin nimi?
-- Sääsovellus
+Chapter 1: Introduction
+
+Project type and name?
+"Sääsovellus", a weather application for aviation hobbyists. Requested by Jukka Juslin, product owner.
+
+Main purpose of the application?
+With the application, one can check current weather condition
 
 
 Mikä on toteuttavan sovelluksen tarkoitus?
