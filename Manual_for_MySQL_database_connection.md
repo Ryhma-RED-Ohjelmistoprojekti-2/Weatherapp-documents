@@ -33,10 +33,15 @@ of following dependency:
 **pom.xml**
 
 (dependency)
-(groupId)mysql(/groupId)
-(artifactId)mysql-connector-java(/artifactId)
-(version)8.0.33(/version)
-(scope)runtime(/scope)
+
+	(groupId)mysql(/groupId)
+
+	(artifactId)mysql-connector-java(/artifactId)
+
+	(version)8.0.33(/version)
+
+	(scope)runtime(/scope)
+
 (/dependency)
 
 
