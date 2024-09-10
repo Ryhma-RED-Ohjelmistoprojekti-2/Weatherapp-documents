@@ -1,6 +1,8 @@
 This is manual on how we connect our application
 to MySQL database.
 
+All comments and explainations are marked with // -mark.
+
 # Chapter 1: Essential configurations in Java Spring Boot files
 
 ## 1.1 pom.xml -file
@@ -8,40 +10,37 @@ to MySQL database.
 Make sure that pom.xml -file has state-to-art version
 of following dependency:
 
+
+//This is the dependency for MySQL database, a advice from GeeksForGeeks.
+		
+//According to Co-pilot, this is a necessary plugin in modern
+//Java Maven projects, both locally and remote.
+
+//However, Maven require "sometimes" specific version of 
+//every depencies (I don't why it didn't require in
+//previous dependencies). Otherwise pom.xml will complain
+//about a missing built.
+
+//As 09 September 2024, latest version of mysql-connector-java
+//is 8.0.33 (built in April 18, 2023).
+
+//You can check latest built for dependency
+//from https://mvnrepository.com/artifact/mysql/mysql-connector-java
+
+
 **pom.xml**
 
-<dependency>
- <groupId>mysql</groupId>
- <artifactId>mysql-connector-java</artifactId>
- <version>8.0.33</version>
- <scope>runtime</scope>
-</dependency>
-
----
-
-*Explaination*
-
-Depency for MySQL database, a advice from GeeksForGeeks.
-		
-According to Co-pilot, this is a necessary plugin in modern
-Java Maven projects, both locally and remote.
-
-However, Maven require "sometimes" specific version of 
-every depencies (I don't why it didn't require in
-previous dependencies). Otherwise pom.xml will complain
-about a missing built.
-
-As 09 September 2024, latest version of mysql-connector-java
-is 8.0.33 (built in April 18, 2023).
-
-source: https://mvnrepository.com/artifact/mysql/mysql-connector-java
-
+#<dependency>
+#<groupId>mysql</groupId>
+#<artifactId>mysql-connector-java</artifactId>
+#<version>8.0.33</version>
+#<scope>runtime</scope>
+#</dependency>
 
 
 ## 1.2 application.properties -file
 
 Check application.properties -file has following lines.
-All comments and explainations are marked with // -mark.
 
 
 **application.properties**
