@@ -45,9 +45,11 @@ All comments and explainations are marked with // -mark.
 
 **application.properties**
 
+// Specify name of our application
 
 spring.application.name=weatherapp
 
+---
 
 // Configuration for MySQL Database 
 
