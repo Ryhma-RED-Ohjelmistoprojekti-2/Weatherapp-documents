@@ -83,8 +83,10 @@ access to a relational database, which is defined as Mysql
 
 Need to add simple login system for the database.
 
-	spring.datasource.username="REDryhma"
-	spring.datasource.password="saaAsema82024"
+	spring.datasource.username={}
+	spring.datasource.password={}
+
+Everyone in group has their own username and password for the database.
 
 ---
 
