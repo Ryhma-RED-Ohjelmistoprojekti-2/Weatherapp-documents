@@ -30,19 +30,19 @@ of following dependency:
 //from https://mvnrepository.com/artifact/mysql/mysql-connector-java
 
 
-**pom.xml**
+	#pom.xml
 
 	<dependency>
 
-		(groupId)mysql(/groupId)
+		<groupId>mysql</groupId>
 
-		(artifactId)mysql-connector-java(/artifactId)
+		<artifactId>mysql-connector-java</artifactId>
 
-		(version)8.0.33(/version)
+		<version>8.0.33</version>
 
-		(scope)runtime(/scope)
+		<scope>runtime</scope>
 	
-	(/dependency)
+	</dependency>
 
 
 ## 1.2 application.properties -file
