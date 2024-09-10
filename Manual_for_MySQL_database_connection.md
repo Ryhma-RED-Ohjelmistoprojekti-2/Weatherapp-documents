@@ -32,17 +32,17 @@ of following dependency:
 
 **pom.xml**
 
-(dependency)
+	<dependency>
 
-	(groupId)mysql(/groupId)
+		(groupId)mysql(/groupId)
 
-	(artifactId)mysql-connector-java(/artifactId)
+		(artifactId)mysql-connector-java(/artifactId)
 
-	(version)8.0.33(/version)
+		(version)8.0.33(/version)
 
-	(scope)runtime(/scope)
-
-(/dependency)
+		(scope)runtime(/scope)
+	
+	(/dependency)
 
 
 ## 1.2 application.properties -file
