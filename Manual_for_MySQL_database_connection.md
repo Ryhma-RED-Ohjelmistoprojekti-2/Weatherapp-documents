@@ -1,3 +1,5 @@
+# Introduction
+
 This is manual on how we connect our application
 to MySQL database.
 
