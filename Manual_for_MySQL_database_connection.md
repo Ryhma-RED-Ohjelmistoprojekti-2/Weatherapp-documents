@@ -89,6 +89,8 @@ spring.jpa.show-sql=true
 
 spring.data.rest.base-path=/api
 
+---
+---
 
 // Used sources:
 
@@ -102,7 +104,8 @@ spring.data.rest.base-path=/api
 
 // https://stackoverflow.com/questions/67260915/how-can-i-obtain-mysql-connector-java-maven-dependency
 
-
+---
+---
 
 // Used prompts for Copilot:
 
