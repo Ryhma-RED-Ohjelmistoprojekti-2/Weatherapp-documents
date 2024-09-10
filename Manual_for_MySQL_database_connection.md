@@ -64,7 +64,11 @@ which is called weatherDB.sql, in our MySQL server (locally).
 
 	#Configuration for MySQL Database 
 	
-	spring.datasource.url=jdbc:mysql://localhost:3306/weatherDB.sql
+	spring.datasource.url=jdbc:mysql:${DB_URL}
+
+DB_URL is given in a specific file.
+
+//localhost:3306/weatherDB.sql
 
 NOTE! Above line determines the **only** URL path of our database.
 
@@ -83,8 +87,8 @@ access to a relational database, which is defined as Mysql
 
 Need to add simple login system for the database.
 
-	spring.datasource.username={}
-	spring.datasource.password={}
+	spring.datasource.username=${DB_USERNAME}
+	spring.datasource.password=${DB_PASSWORD}
 
 Everyone in group has their own username and password for the database.
 
