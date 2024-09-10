@@ -66,7 +66,8 @@ which is called weatherDB.sql, in our MySQL server (locally).
 	
 	spring.datasource.url=jdbc:mysql://localhost:3306/weatherDB.sql
 
-NOTE! Above line determines the only URL path of our database.
+NOTE! Above line determines the **only** URL path of our database.
+
 In order to import weatherDB.sql, we need either a MySQL client 
 or CLI, that runs MySQL in background.
 
