@@ -3,7 +3,7 @@ to MySQL database.
 
 Chapter 1: Essential configurations in Java Spring Boot files
 
-#1.1 pom.xml -file
+##1.1 pom.xml -file
 
 Make sure that pom.xml -file has state-to-art version
 of following dependency:
@@ -37,7 +37,7 @@ source: https://mvnrepository.com/artifact/mysql/mysql-connector-java
 
 
 
-#1.2 application.properties -file
+##1.2 application.properties -file
 
 Check application.properties -file has following lines.
 All comments and explainations are marked with // -mark.
@@ -93,9 +93,13 @@ spring.data.rest.base-path=/api
 // Used sources:
 
 // https://spring.io/guides/gs/accessing-data-mysql
+
 // https://dev.to/abhi9720/a-beginners-guide-to-crud-operations-of-rest-api-in-spring-boot-mysql-5hcl
+
 // https://www.geeksforgeeks.org/spring-boot-crud-operations-using-mysql-database/
+
 // https://www.geeksforgeeks.org/spring-boot-integration-with-mysql-as-a-maven-project/
+
 // https://stackoverflow.com/questions/67260915/how-can-i-obtain-mysql-connector-java-maven-dependency
 
 
