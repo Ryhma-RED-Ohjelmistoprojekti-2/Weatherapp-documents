@@ -1,4 +1,4 @@
-![Mysql_05_mysql_shell](https://github.com/user-attachments/assets/91f8ebf5-34f7-45f4-9a77-30e5c6a5f1d8)# Manual for Backend of Weatherapp.
+# Manual for Backend of Weatherapp.
 
 ## Table of Contents
 
