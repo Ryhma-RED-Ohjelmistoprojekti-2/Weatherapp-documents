@@ -72,19 +72,41 @@ https://mvnrepository.com/artifact/mysql/mysql-connector-java
 
 # 3 application.properties -file
 
-application.properties is essential a file for ...
-as shown in picture ##.
+application.properties is essential a file to connect our local database,
+weatherDB.sql, to Weatherapp, as shown in picture 02.
 
-Picture ##: application.properties.
+Picture 02: application.properties.
 
-Step-by-step explaination:
+Let's through the configs.
 
 	spring.application.name=weatherapp
 
 Line specifies name of our application.
 
 ---
-	
+
+spring.config.import=optional:file:.env[.properties]
+
+Line will load environment variables from project root.
+These variables are DB_URL, DB_USERNAME and DB_PASSWORD,
+and they are imported from .env -file.
+
+	spring.datasource.url=${DB_URL}
+	spring.datasource.username=${DB_USERNAME}
+	spring.datasource.password=${DB_PASSWORD}
+
+The lines are configuration for MYSQL Databes, with environment variables
+imported from .env -file.
+
+![Mysql_07_env_file](https://github.com/user-attachments/assets/e29518ad-9350-4772-9b36-76a3a3b817db)![Mysql_08_env_variables_empty](https://github.com/user-attachments/assets/22a15090-0117-41e3-9f57-8c2b5c3c8e07)
+
+
+
+We used environment variables to enhance database security.
+By ignoring .env -file, i.e. adding .env to the list of .gitignore -file,
+we ensure that no sensitive information like username and password
+will publicly published into Github.
+
 	spring.datasource.url=jdbc:mysql:${DB_URL}
 
 Line specifies the URL for our project's database,
