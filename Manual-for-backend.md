@@ -45,10 +45,15 @@ B) Run MySQL and Appache in XAMPP Control Panel.
 
 ![Mysql_01_Run_apache_Mysql](https://github.com/user-attachments/assets/305c04fc-78a6-46d4-9119-4b7373663603)
 
-C) Open Shell of MySQL and login with root -user. Press enter, if you haven't never changed your root's password.
+C) Open Shell, which is on right side of XAMPP control panel. Login into Mysql with following command:
+
+	mysql -u root -p
+ 
+Press enter, if you haven't never changed your root's password.
 
 ![Mysql_02_Run_Shell_of_Mysql](https://github.com/user-attachments/assets/f6c8abd6-4e0d-49fe-8e37-6fd4a6411f77)
 
+D) 
 
 Before you close, remember your user account privileges.
 
