@@ -11,6 +11,8 @@
         - S.2.2 Third sub-chapter
 ---
 ---
+---
+---
 # 1 Introduction
 
 This is manual for the whole backend of the application.
@@ -31,6 +33,9 @@ In chapter 5 - 8, we check files that are need for MVC.
 
 ---
 ---
+---
+---
+
 # 2 pom.xml -file
 
 A pom.xml -file is one of the most essential file in the backend.
@@ -75,6 +80,8 @@ https://mvnrepository.com/artifact/mysql/mysql-connector-java
 ---
 ---
 ---
+---
+
 # 3 application.properties -file
 
 application.properties is essential a file to connect our local database,
@@ -155,6 +162,8 @@ Determines REST path for database.
 ---
 ---
 ---
+---
+
 # S MySQL
 
 ## S.1 Username & password
