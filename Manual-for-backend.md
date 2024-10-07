@@ -3,12 +3,12 @@
 ## Table of Contents
 
 - 1 Introduction
+- 2 pom.xml
 
 
-
-- 2 MySQL
-    - 2.1 Username & Password
-        - 2.2.2 Third sub-chapter
+- S MySQL
+    - S.1 Username & Password
+        - S.2.2 Third sub-chapter
 
 # 1 Introduction
 
@@ -24,9 +24,130 @@ must have MySQL installed in their host machine. In this manual,
 we use MySQL from XAMPP Control Panel for introducing MySQL's connectivity
 to application.
 
-# - MySQL
+In chapter 2 - 4, we start presenting the essential files, that make and break the whole backend.
 
-## -.1 Username & password
+In chapter 5 - 8, we check files that are need for MVC.
+
+# 2 pom.xml -file
+
+A pom.xml -file is one of the most essential file in the backend.
+It has all dependencies required to run Weatherapp, as shown in below picture ##.
+
+Picture ##: pom.xml
+
+Let's go step-by-step all dependencies.
+
+
+	<dependency>
+
+		<groupId>mysql</groupId>
+
+		<artifactId>mysql-connector-java</artifactId>
+
+		<version>8.0.33</version>
+
+		<scope>runtime</scope>
+	
+	</dependency>
+
+This is the dependency for MySQL database, a advice from GeeksForGeeks.
+		
+According to Co-pilot, this is a necessary plugin in modern
+Java Maven projects, both locally and remote.
+
+However, Maven require "sometimes" specific version of 
+every depencies (I don't why it didn't require in
+previous dependencies). Otherwise pom.xml will complain
+about a missing built.
+
+As 09 September 2024, latest version of mysql-connector-java
+is 8.0.33 (built in April 18, 2023). Make sure it using current built
+
+You can check latest built for the dependency from
+https://mvnrepository.com/artifact/mysql/mysql-connector-java
+
+
+# 3 application.properties -file
+
+application.properties is essential a file for ...
+as shown in picture ##.
+
+Picture ##: application.properties.
+
+Step-by-step explaination:
+
+	spring.application.name=weatherapp
+
+Line specifies name of our application.
+
+---
+	
+	spring.datasource.url=jdbc:mysql:${DB_URL}
+
+Line specifies the URL for our project's database,
+which is called weatherDB.sql, in our MySQL server (locally).
+DB_URL is given in a specific file.
+
+//localhost:3306/weatherDB.sql
+
+Note, that above line determines the **only** URL path of our database!
+
+In order to import weatherDB.sql, we need a MySQL client 
+(or CLI) that runs MySQL in background. For example,
+start MySQL client via XAMPP control panel.
+
+![Mysql_01_Run_apache_Mysql](https://github.com/user-attachments/assets/104595fa-8dd5-49ca-9b79-de35273b93ea)
+
+
+See chapter S for more detailed explaination.
+
+---
+
+Next line is needed in order Java Application
+access to a relational database, which is defined as Mysql
+(see com.mysql). According to Co-pilot this establish connection.
+
+	spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+---
+
+Need to add simple login system for the database.
+
+	spring.datasource.username=${DB_USERNAME}
+	spring.datasource.password=${DB_PASSWORD}
+
+These are for login system of the database.
+
+Each user must use their own username and password for the database,
+that are made in MySQL server and saved in .env file. 
+
+Since Github will ignore .env -file according to .gitignore -file,
+we ensure that no sensitive information like username and password
+will publicly published into Github. Hence, we have improved
+data security for our database.
+
+If you haven't created own username and password for the database,
+see Chapter S tutorial for creating new username and password
+in MySQL server, using XAMPP control panel.
+
+---
+
+	spring.jpa.hibernate.ddl-auto=update
+	spring.jpa.show-sql=true
+
+These configure hibernation of our database, 
+i.e. will update and show weatherDB -database.
+
+---
+	spring.data.rest.base-path=/api
+
+Determines REST path for database.
+
+---
+
+# S MySQL
+
+## S.1 Username & password
 
 In order to connect weatherDB -database from MySQL to Weatherapp (specifically backend),
 then you must have your own username and password for the weatherDB database.
@@ -71,110 +192,6 @@ You have unfortunately always create new user account and password for each run.
 
 So please, SAVE YOUR USER ACCOUNT PRIVILEGES FOR weatherdb.
 
-# Chapter 1: Essential configurations in Java Spring Boot files
+### S.2.2 Third sub-chapters
 
-## 1.1 pom.xml -file
-
-Make sure that pom.xml -file has state-to-art version
-of following dependency:
-
-
-
-
-
-	#pom.xml
-
-	<dependency>
-
-		<groupId>mysql</groupId>
-
-		<artifactId>mysql-connector-java</artifactId>
-
-		<version>8.0.33</version>
-
-		<scope>runtime</scope>
-	
-	</dependency>
-
-This is the dependency for MySQL database, a advice from GeeksForGeeks.
-		
-According to Co-pilot, this is a necessary plugin in modern
-Java Maven projects, both locally and remote.
-
-However, Maven require "sometimes" specific version of 
-every depencies (I don't why it didn't require in
-previous dependencies). Otherwise pom.xml will complain
-about a missing built.
-
-As 09 September 2024, latest version of mysql-connector-java
-is 8.0.33 (built in April 18, 2023).
-
-You can check latest built for dependency
-from https://mvnrepository.com/artifact/mysql/mysql-connector-java
-
-
-## 1.2 application.properties -file
-
-Check application.properties -file has following lines.
-
-
-	#application.properties
-
-	#Specifying name of our application
-
-	spring.application.name=weatherapp
-
----
-
-Next line specifies the URL for our created database
-which is called weatherDB.sql, in our MySQL server (locally).
-
-	#Configuration for MySQL Database 
-	
-	spring.datasource.url=jdbc:mysql:${DB_URL}
-
-DB_URL is given in a specific file.
-
-//localhost:3306/weatherDB.sql
-
-NOTE! Above line determines the **only** URL path of our database.
-
-In order to import weatherDB.sql, we need either a MySQL client 
-or CLI, that runs MySQL in background.
-
----
-
-Next line is needed in order Java Application
-access to a relational database, which is defined as Mysql
-(see com.mysql). According to Co-pilot this establish connection.
-
-	spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-
----
-
-Need to add simple login system for the database.
-
-	spring.datasource.username=${DB_USERNAME}
-	spring.datasource.password=${DB_PASSWORD}
-
-Everyone in group has their own username and password for the database.
-
----
-
-We have to also configure hibernation.
-
-	// Configuration for hibernation
-
-	spring.jpa.hibernate.ddl-auto=update
-	spring.jpa.show-sql=true
-
----
-
-Lastly we determine REST path for database.
-
-	// Show database in the given REST path.
-
-	spring.data.rest.base-path=/api
-
----
----
+Use if needed.
