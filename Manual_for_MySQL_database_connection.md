@@ -1,8 +1,29 @@
 # Introduction
 
-This is manual on how we connect our application
-to MySQL database.
+This is manual for the MySQL configurations for the backend.
 
+
+# Chapter 0: Own MySQL -account and -password!
+Everyone should first have their own account and password for the weatherDB database.
+
+If you don't have one, you need to create new one in MySQL.
+
+Our group used XAMPP control panel for running MySQL.
+
+Bla bla bla
+
+Before you close, remember your user account privileges.
+
+with command FLUSH PRIVILEGES;
+
+Otherwise, your Mysql will forget all settings for your account,
+therefore forgetting connection to database, 
+making re-running the backend an awful headache (especially for me, Scrum master).
+
+Also, from my experience, you can't insert same privileges after each running.
+You have unfortunately always create new user account and password for each run.
+
+So please, SAVE YOUR USER ACCOUNT PRIVILEGES FOR weatherdb.
 
 # Chapter 1: Essential configurations in Java Spring Boot files
 
