@@ -98,31 +98,32 @@ and they are imported from .env -file.
 The lines are configuration for MYSQL Databes, with environment variables
 imported from .env -file.
 
-![Mysql_07_env_file](https://github.com/user-attachments/assets/e29518ad-9350-4772-9b36-76a3a3b817db)![Mysql_08_env_variables_empty](https://github.com/user-attachments/assets/22a15090-0117-41e3-9f57-8c2b5c3c8e07)
-
-
+![Mysql_09_env_variables_whole_empty](https://github.com/user-attachments/assets/86902255-f6b2-425a-b799-bdbffc5bb228)
 
 We used environment variables to enhance database security.
 By ignoring .env -file, i.e. adding .env to the list of .gitignore -file,
 we ensure that no sensitive information like username and password
 will publicly published into Github.
 
-	spring.datasource.url=jdbc:mysql:${DB_URL}
+As you may already noted, they are know empty.
+You have to manually configure them in your local computer.
 
-Line specifies the URL for our project's database,
+DB_URL is specifies the URL for our project's database,
 which is called weatherDB.sql, in our MySQL server (locally).
-DB_URL is given in a specific file.
+DB_URL can be given following:
 
-//localhost:3306/weatherDB.sql
+	DB_URL = jdbc:mysql://localhost:3306/weatherdb?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
 
 Note, that above line determines the **only** URL path of our database!
 
-In order to import weatherDB.sql, we need a MySQL client 
+In order to import weatherDB.sql, you need a MySQL client 
 (or CLI) that runs MySQL in background. For example,
 start MySQL client via XAMPP control panel.
 
 ![Mysql_01_Run_apache_Mysql](https://github.com/user-attachments/assets/104595fa-8dd5-49ca-9b79-de35273b93ea)
 
+Meanwhile, DB_USERNAME and DB_PASSWORD have to be manually created inside MySQL client,
+with all given privliges for the weatherdb -database.
 
 See chapter S for more detailed explaination.
 
@@ -134,26 +135,6 @@ access to a relational database, which is defined as Mysql
 
 	spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
----
-
-Need to add simple login system for the database.
-
-	spring.datasource.username=${DB_USERNAME}
-	spring.datasource.password=${DB_PASSWORD}
-
-These are for login system of the database.
-
-Each user must use their own username and password for the database,
-that are made in MySQL server and saved in .env file. 
-
-Since Github will ignore .env -file according to .gitignore -file,
-we ensure that no sensitive information like username and password
-will publicly published into Github. Hence, we have improved
-data security for our database.
-
-If you haven't created own username and password for the database,
-see Chapter S tutorial for creating new username and password
-in MySQL server, using XAMPP control panel.
 
 ---
 
