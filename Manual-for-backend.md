@@ -35,9 +35,11 @@ If you don't still have one, you need to create new one in MySQL.
 
 In this step-by-step guide, we use XAMPP's MySQL as an example.
 
-A) Copy the weatherDB.sql file to your local Backend repository. 
 
-B) Open XAMPP Control Panel, e.g., from your Windows Start Menu.
+A) Open XAMPP Control Panel, e.g., from your Windows Start Menu.
+
+![Mysql_00_Open_Xampp](https://github.com/user-attachments/assets/2045bb3f-1e19-4b4e-a5a9-88582a8c92e8)
+
 
 B) Run MySQL and Appache in XAMPP Control Panel.
 
