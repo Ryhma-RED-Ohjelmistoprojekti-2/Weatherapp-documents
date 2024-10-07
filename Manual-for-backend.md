@@ -10,6 +10,8 @@
     - S.1 Username & Password
         - S.2.2 Third sub-chapter
 
+
+
 # 1 Introduction
 
 This is manual for the whole backend of the application.
@@ -27,6 +29,8 @@ to application.
 In chapter 2 - 4, we start presenting the essential files, that make and break the whole backend.
 
 In chapter 5 - 8, we check files that are need for MVC.
+
+
 
 # 2 pom.xml -file
 
@@ -68,6 +72,7 @@ is 8.0.33 (built in April 18, 2023). Make sure it using current built
 
 You can check latest built for the dependency from
 https://mvnrepository.com/artifact/mysql/mysql-connector-java
+
 
 
 # 3 application.properties -file
@@ -128,13 +133,11 @@ with all given privliges for the weatherdb -database.
 See chapter S for more detailed explaination.
 
 ---
-
-Next line is needed in order Java Application
-access to a relational database, which is defined as Mysql
-(see com.mysql). According to Co-pilot this establish connection.
-
 	spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
+The line is needed in order Java Application
+access to a relational database, which is defined as Mysql
+(see com.mysql). According to Co-pilot this establish connection.
 
 ---
 
