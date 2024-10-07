@@ -9,9 +9,9 @@
 - S MySQL
     - S.1 Username & Password
         - S.2.2 Third sub-chapter
-
-
-
+\n
+\n
+\n
 # 1 Introduction
 
 This is manual for the whole backend of the application.
@@ -29,9 +29,9 @@ to application.
 In chapter 2 - 4, we start presenting the essential files, that make and break the whole backend.
 
 In chapter 5 - 8, we check files that are need for MVC.
-
-
-
+\n
+\n
+\n
 # 2 pom.xml -file
 
 A pom.xml -file is one of the most essential file in the backend.
@@ -72,9 +72,9 @@ is 8.0.33 (built in April 18, 2023). Make sure it using current built
 
 You can check latest built for the dependency from
 https://mvnrepository.com/artifact/mysql/mysql-connector-java
-
-
-
+\n
+\n
+\n
 # 3 application.properties -file
 
 application.properties is essential a file to connect our local database,
@@ -151,9 +151,9 @@ i.e. will update and show weatherDB -database.
 	spring.data.rest.base-path=/api
 
 Determines REST path for database.
-
----
-
+\n
+\n
+\n
 # S MySQL
 
 ## S.1 Username & password
