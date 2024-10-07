@@ -31,13 +31,14 @@ In chapter 5 - 8, we check files that are need for MVC.
 # 2 pom.xml -file
 
 A pom.xml -file is one of the most essential file in the backend.
-It has all dependencies required to run Weatherapp, as shown in picture ##.
+It has all dependencies required to run Weatherapp, as shown in picture 01.
+Some dependencies requires to be updated time to time.
 
 ![Mysql_06_pom_xml](https://github.com/user-attachments/assets/65467e82-5b2a-4891-965e-5dc5edf3fd30)
 
-Picture ##: pom.xml
+Picture 01: pom.xml
 
-Let's go step-by-step all dependencies.
+Let's go through couple important dependencies.
 
 
 	<dependency>
