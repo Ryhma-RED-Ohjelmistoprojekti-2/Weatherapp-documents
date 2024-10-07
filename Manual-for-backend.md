@@ -51,7 +51,9 @@ C) Open Shell, which is on right side of XAMPP control panel. Login into Mysql w
  
 Press enter, if you haven't never changed your root's password.
 
-![Mysql_02_Run_Shell_of_Mysql](https://github.com/user-attachments/assets/f6c8abd6-4e0d-49fe-8e37-6fd4a6411f77)
+![Mysql_03_Select_shell](https://github.com/user-attachments/assets/f198605d-6384-4573-868f-ee9d4ae34842)![Mysql_04_mysql_shell](https://github.com/user-attachments/assets/9bf20b79-d4c8-4aff-9cd9-4b10956e9e35)
+
+
 
 D) 
 
