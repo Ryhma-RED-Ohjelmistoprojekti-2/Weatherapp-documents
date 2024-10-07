@@ -1,4 +1,4 @@
-# Manual for Backend of Weatherapp.
+![Mysql_05_mysql_shell](https://github.com/user-attachments/assets/91f8ebf5-34f7-45f4-9a77-30e5c6a5f1d8)# Manual for Backend of Weatherapp.
 
 ## Table of Contents
 
@@ -51,7 +51,8 @@ C) Open Shell, which is on right side of XAMPP control panel. Login into Mysql w
  
 Press enter, if you haven't never changed your root's password.
 
-![Mysql_03_Select_shell](https://github.com/user-attachments/assets/f198605d-6384-4573-868f-ee9d4ae34842)![Mysql_04_mysql_shell](https://github.com/user-attachments/assets/9bf20b79-d4c8-4aff-9cd9-4b10956e9e35)
+![Mysql_05_mysql_shell](https://github.com/user-attachments/assets/afdb43c9-281a-427a-aadf-3aef9ea3a028)
+
 
 
 
