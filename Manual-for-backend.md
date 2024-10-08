@@ -87,6 +87,9 @@ https://mvnrepository.com/artifact/mysql/mysql-connector-java
 application.properties is essential a file to connect our local database,
 weatherDB.sql, to Weatherapp, as shown in picture 02.
 
+![Mysql_06_application_properties](https://github.com/user-attachments/assets/4e2099f5-4187-4038-9431-517e9ad83cef)
+
+
 Picture 02: application.properties.
 
 Let's through the configs.
