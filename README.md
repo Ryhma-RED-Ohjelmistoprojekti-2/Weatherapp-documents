@@ -42,6 +42,10 @@ Weatherapp is a weather application for aviation hobbyists. It was original call
 which is the Finnish word for weather application. The application was requested by Jukka Juslin,
 who was the main and only product owner of the application and whole project.
 
+![image](https://github.com/user-attachments/assets/7a7a83ca-46e6-4367-a984-bffa188ddbd7)
+
+Picture 01: The visual UI of weatherapp. [TODO: ADD UPDATED IMAGE OF WEATHERAPP]
+
 ### 2.2 Where is the weatherapp?
 Weatherapp is countinously running in Softala -service. The visual user interface of weatherapp
 can be seen in [INSERT NEW FRONTEND URL].
