@@ -1,10 +1,43 @@
-# s24RyhmaREDdocuments
+# Weatherapp documents
 
-Repository s24RyhmaREDdocuments is the place, where we will record all related documents for our project.
+## 1. Members of the team:
+
+Erkki Tiili
+- E-mail:
+- Github account:
+
+Ilari Koikkalainen
+- E-mail:
+- Github account:
+
+Oskari Aho
+- E-mail:
+- Github account:
+
+Kaj Jansson
+- E-mail: kaj.jansson@myy.haaga-helia.fi
+- Github account: https://github.com/KajFromHH
+
+Johannes Haapanen
+- E-mail:
+- Github account:
+
+Joel Borenius
+- E-mail:
+- Github account:
+
+Rasmus Haapalainen
+- E-mail:
+- Github account:
+
+This a document repository for our weathapp. We will record all related documents of weatherapp in here.
 
 
 
-Chapter 1: Introduction
+## 2. Introduction
+
+This a document repository for our weathapp. We will record all related documents of weatherapp in here.
+
 
 
 
@@ -37,14 +70,3 @@ What programming technologies and solutions were used for the application?
 	* Libraries: ...
 
 - Database: MySQL.
-
-
-
-Members of the team:
-- Erkki Tiili
-- Ilari Koikkalainen
-- Oskari Aho
-- Kaj Jansson
-- Johannes Haapanen
-- Joel Borenius
-- Rasmus Haapalainen
