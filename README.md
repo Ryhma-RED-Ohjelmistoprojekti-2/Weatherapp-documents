@@ -30,43 +30,41 @@ Rasmus Haapalainen
 - E-mail:
 - Github account:
 
-This a document repository for our weathapp. We will record all related documents of weatherapp in here.
-
 
 
 ## 2. Introduction
 
-This a document repository for our weathapp. We will record all related documents of weatherapp in here.
+This a document repository for our weathapp. We will record all related documents and information about weatherapp in here.
 
+### 2.1 What is weatherapp?
 
+Weatherapp is a weather application for aviation hobbyists. It was original called "Sääsovellus",
+which is the Finnish word for weather application. The application was requested by Jukka Juslin,
+who was the main and only product owner of the application and whole project.
 
+### 2.2 Where is the weatherapp?
+Weatherapp is countinously running in Softala -service. The visual user interface of weatherapp
+can be seen in [INSERT NEW FRONTEND URL].
 
-Project type and name?
-"Sääsovellus", i.e., a weather application for aviation hobbyists. Requested by Jukka Juslin, product owner.
+### 2.3 How to use the weatherapp?
 
+Using this application, one can inspect the current weather at a specific airport.
 
-What is the use of the application?
-- Using this app, one can inspect the current weather at Pasila
+You can inspect the following weather data from the airport:
+- Temperature.
+- Direction of wind.
+- Wind speed.
+- Humidity.
+- Weather history of the last 24 hours.
 
-
-
-What are the most important features of the app, what can the user of the application do?
-You can inspect the following weather data:
-- Temperature
-- Direction of wind
-- Wind speed
-- Humidity (?)
-- Weather history of the last 24 hours (?)
-
-
-
-What programming technologies and solutions were used for the application?
+### 2.4 What technologies does weatherapp uses?
 
 - IDE -environment: VSCode.
+
+- Service: Softala. The accounts and permissions were given by Haaga-Helia University of Applied Sciences.
 
 - Backend: Java and Spring boot.
 
 - Frontend: React.
-	* Libraries: ...
 
 - Database: MySQL.
