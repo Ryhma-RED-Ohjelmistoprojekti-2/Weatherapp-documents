@@ -65,7 +65,7 @@ You can inspect the following weather data from the airport:
 
 - IDE -environment: VSCode.
 
-- Service: Softala. The accounts and permissions were given by Haaga-Helia University of Applied Sciences.
+- Service: Softala. The accounts and credentials were given by Haaga-Helia University of Applied Sciences.
 
 - Backend: Java and Spring boot.
 
